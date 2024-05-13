@@ -82,4 +82,4 @@ This repository contains 17 folders, each representing a tutorial session I have
 Feel free to navigate through each session folder to explore the code and resources associated with my learning progress. You can clone this repository to your local machine using the following command:
 
 ```bash
-git clone <repository_url>
+git clone https://github.com/yasirupanduka99/JavaScript_Series.git
