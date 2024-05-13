@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script Tut 06</title>
+</head>
+<body>
+    
+    <p id="text"> Hello Style! </p>
+
+    <button id="buttonStyle"> Change Style </button>
+    <button id="buttonSize"> Change Size </button>
+    <button id="buttonHide"> Hide Text </button>
+
+
+    <script type="text/javascript">
+        
+        document.getElementById("buttonStyle").onclick = function() {
+            
+            document.getElementById("text").style.color = "#FF5733";
+
+        }
+
+        document.getElementById("buttonSize").onclick = function() {
+            
+            document.getElementById("text").style.fontSize = "1.5em";
+
+        }
+
+        document.getElementById("buttonHide").onclick = function() {
+            
+            document.getElementById("text").style.display = "none";
+
+        }
+
+
+    </script>
+
+</body>
+</html>
