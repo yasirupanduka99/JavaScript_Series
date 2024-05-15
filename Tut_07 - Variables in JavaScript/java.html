@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script Tut 06</title>
+</head>
+<body>
+
+    <label for="textInput">Enter Your Name</label>
+    <input type="text" id="textInput" placeholder="Ex: John"/>
+    <button id="textChangeBtn">Update</button>
+
+    <p id="text"> Name Will apear in here with greetings </p>
+
+
+    <script type="text/javascript">
+        
+        // var means variable
+        var x = 10;
+        var name = "Tom";
+        x = 25;
+
+        console.log("x value is " + x + " name is " + name);
+        
+
+        // create onclick event for input field button
+        document.getElementById("textChangeBtn").onclick = function() {
+            var textEntered = "";
+
+            // Getting value of input field and assign it into a variable we created as textEntered.
+            textEntered = document.getElementById("textInput").value;
+
+            console.log(textEntered);
+
+            document.getElementById("text").innerHTML = "Hello " + textEntered + "!";
+            
+        }
+
+    </script>
+
+</body>
+</html>
