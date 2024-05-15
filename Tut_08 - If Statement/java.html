@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script Tut 08</title>
+</head>
+<body>
+
+    <label for="usernameInput"> Enter your username </label>
+    <input type="text" id="usernameInput" placeholder="Ex: John"/>
+
+    <button id="usernameBtn"> Enter </button>
+
+
+    <script type="text/javascript">
+        
+        // If-Else statement basics
+        var x = 1; // creating variable
+
+        if ( x == 1 ){
+            console.log("✅ x is 1");
+        } else {
+            console.log("❌ x is not 1");        
+        }
+
+
+        // If-Else statement for upper htmls
+        document.getElementById("usernameBtn").onclick = function() {
+            var userNameEntered = document.getElementById("usernameInput").value;
+
+            // Get previous session entered username from localstorage in browser
+            var previousUserName = localStorage.getItem("username");
+
+            // Checking entered username is previously enetered or not
+            if (userNameEntered == previousUserName){
+                alert("❌ Username is used in previous session!");
+            } else{
+                alert("✅ Username successfuly entered!");
+                // Save username into localstorage in browser
+                localStorage.setItem("username", userNameEntered);
+            }
+        }
+
+    </script>
+
+</body>
+</html>
