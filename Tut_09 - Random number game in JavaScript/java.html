@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script Tut 09</title>
+</head>
+<body>
+
+    <h4> What number is I am thinking now? </h4>
+    <label for="numberInput"> ***Number between 1-10*** </label> <br /><br />
+    <input type="number" id="numberInput" placeholder="Enter Number between 1 & 10"/> <br /><br />
+
+    <button id="guessBtn"> Guess! </button>
+
+
+    <script type="text/javascript">
+        
+
+        document.getElementById("guessBtn").onclick = function() {
+
+            // Returns a random integer from 1 to 10:
+            // Math.floor() will rounds a number down to the nearest whole number.
+            // Math.random() will give random numbers between 0 and 1. (Ex: 0.2134564466)
+            var randomNumber = Math.floor(Math.random() * 10) + 1;
+            console.log("random number is: " + randomNumber);
+
+            var enteredNumber = document.getElementById("numberInput").value;
+
+            if(enteredNumber == randomNumber){
+                alert("🎉🍾 Congratulations! Your are correct!");
+            } else {
+                alert("😏 Try Again buddy!");
+            }
+        }
+
+    </script>
+
+</body>
+</html>
