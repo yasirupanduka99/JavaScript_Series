@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script Tut 12</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+    <div id="tweetDiv"></div>
+
+    <script type="text/javascript">
+
+        var tweetString = "";
+        // Creating array
+        var tweet = ["Good Morning!", "Take a coffee", "Back to home", "Good Night!"];
+        var i = 0;
+
+        // While loop
+        while (i < tweet.length){
+            tweetString = tweetString + "<p>" + tweet[i] + "</p>";
+            i++;
+        }
+
+        document.getElementById("tweetDiv").innerHTML = tweetString;
+
+    </script>
+
+</body>
+</html>
