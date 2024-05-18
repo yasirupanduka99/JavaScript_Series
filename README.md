@@ -8,74 +8,65 @@ This repository contains 17 folders, each representing a tutorial session I have
 
 ## Tutorial Sessions
 
-1. **Session 1: Introduction to JavaScript**
+1. **Tut_01: JavaScript Introduction**
    - Overview of JavaScript
    - Setting up development environment
 
-2. **Session 2: Variables and Data Types**
+2. **Tut_02: Internal JavaScript**
+   - Including JavaScript in HTML
+   - Internal scripts
+
+3. **Tut_03: Accessing Elements**
+   - DOM manipulation
+   - Accessing HTML elements using JavaScript
+
+4. **Tut_04: Response to a click**
+   - Handling click events
+   - Adding interactivity
+
+5. **Tut_05: Change web content**
+   - Modifying HTML content
+   - Dynamic content updates
+
+6. **Tut_06: Style with JavaScript**
+   - Changing CSS styles with JavaScript
+   - Dynamic styling
+
+7. **Tut_07: Variables in JavaScript**
    - Declaring variables
-   - Primitive and reference data types
+   - Data types and variable scope
 
-3. **Session 3: Operators and Expressions**
-   - Arithmetic, assignment, and comparison operators
-   - Conditional (ternary) operator
+8. **Tut_08: If Statement**
+   - Conditional statements
+   - Making decisions in code
 
-4. **Session 4: Control Flow**
-   - If statements
-   - Switch statements
-   - Loops (for, while, do-while)
+9. **Tut_09: Random number game in JavaScript**
+   - Generating random numbers
+   - Creating a simple game
 
-5. **Session 5: Functions**
-   - Declaring functions
-   - Function parameters and return values
+10. **Tut_10: For loop in JavaScript**
+    - Looping through code
+    - Using for loops effectively
 
-6. **Session 6: Arrays**
-   - Creating and manipulating arrays
-   - Array methods (push, pop, shift, unshift, etc.)
+11. **Tut_11: Loop with Array 01 in JavaScript**
+    - Working with arrays
+    - Looping through array elements
 
-7. **Session 7: Objects**
-   - Object literals
-   - Accessing and modifying object properties
+12. **Tut_12: While loop in JavaScript**
+    - Using while loops
+    - Loop control with conditions
 
-8. **Session 8: Scope and Closures**
-   - Global vs. local scope
-   - Closure concept in JavaScript
+13. **Tut_13: Function in JavaScript**
+    - Declaring and using functions
+    - Function parameters and return values
 
-9. **Session 9: ES6 Features - Part 1**
-   - let and const keywords
-   - Arrow functions
+14. **Tut_14: JavaScript Final Game**
+    - Combining concepts
+    - Creating a more complex project
 
-10. **Session 10: ES6 Features - Part 2**
-    - Template literals
-    - Destructuring assignment
-
-11. **Session 11: Promises and Asynchronous JavaScript**
-    - Introduction to asynchronous programming
-    - Promises and handling asynchronous operations
-
-12. **Session 12: Error Handling**
-    - Try-catch blocks
-    - Handling errors gracefully
-
-13. **Session 13: Working with the DOM**
-    - Introduction to the Document Object Model
-    - Manipulating HTML elements using JavaScript
-
-14. **Session 14: Event Handling**
-    - Responding to user interactions
-    - Adding event listeners
-
-15. **Session 15: AJAX and Fetch API**
-    - Making asynchronous HTTP requests
-    - Fetch API usage
-
-16. **Session 16: Local Storage**
-    - Storing and retrieving data locally
-    - Utilizing localStorage object
-
-17. **Session 17: Project Completion**
-    - Review and summary of learning journey
-    - Project showcase and reflections
+15. **Tut_15: External JavaScript**
+    - Using external scripts
+    - Organizing code into separate files
 
 ## How to Use
 
