@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script Tut 13</title>
+</head>
+<body>
+
+    <p> Enter two numbers to calculate avarage. </p>
+    <p> <input type="number" id="number1" placeholder="Input Number 1"> </p>
+    <p> <input type="number" id="number2" placeholder="Input Number 2"> </p>
+    <p> <button type="submit" id="calculateAvgBtn"> Calculate Avg. </button> </p>
+
+
+    <script type="text/javascript">
+
+        // creating basic function for returning avarage.
+        function average(a, b) {
+            var avg = (a+b)/2;
+            return avg;
+        }
+
+        document.getElementById("calculateAvgBtn").onclick = function() {
+            var num1 = parseFloat(document.getElementById("number1").value);
+            var num2 = parseFloat(document.getElementById("number2").value);
+            
+
+            // calling that function.
+            alert("Avarage is " + average(num1, num2));
+            console.log("Avarage is " + average(num1, num2));
+            
+        }
+
+    </script>
+
+</body>
+</html>
