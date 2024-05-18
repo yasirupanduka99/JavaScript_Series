@@ -10,11 +10,13 @@
             width: 100px;
             height: 100px;
             background-color: green;
+            display: none;
         }
     </style>
 </head>
 <body>
 
+    <p> You Get <span id="time"></span> </p>
     <div id="shape"></div>
 
 
@@ -22,13 +24,26 @@
 
         var startTime = new Date().getTime();
 
+        function shapeAppear() {
+            document.getElementById("shape").style.display = "block";
+            startTime = new Date().getTime();
+        }
+
+        function shapeApearDelay(){
+           setTimeout(shapeAppear, Math.floor(Math.random() * 1000)); 
+        }
+
+        shapeApearDelay();
+
         document.getElementById("shape").onclick = function() {
             document.getElementById("shape").style.display = "none";
 
             var endTime = new Date().getTime();
 
             var ExcutionTime = (endTime - startTime) / 1000; // devide 1000 cuz we want time in seconds. thats why we devide milisecond value from 1000 to get time in seconds.
-            alert("Excution Time: " + ExcutionTime);
+            document.getElementById("time").innerHTML = ExcutionTime + " Seconds";
+
+            shapeApearDelay();
         }
 
     </script>
