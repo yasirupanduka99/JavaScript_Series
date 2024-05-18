@@ -4,7 +4,7 @@ Welcome to my JavaScript learning journey repository! Here, I document my progre
 
 ## Overview
 
-This repository contains 17 folders, each representing a tutorial session I have completed. Within each folder, you will find code snippets, exercises, and any additional resources relevant to that particular session.
+This repository contains 15 folders, each representing a tutorial session I have completed. Within each folder, you will find code snippets, exercises, and any additional resources relevant to that particular session.
 
 ## Tutorial Sessions
 
